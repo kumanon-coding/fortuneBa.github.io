@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>占いバナー一覧</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+    <style>
+        html{
+            font-size:100%;
+        }
+        body{
+            margin:0;
+            font-size:0;
+            font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+        }
+        #wrapp{
+            width:100%;
+            overflow: hidden;
+        }
+        h1{
+            margin:0 auto;
+            padding: 5% 0;
+            font-size:5vw;
+            text-align: center;
+            color:#898989;
+        }
+        h2{
+            margin:0 auto;
+            padding: 2% 0;
+            font-size:2vw;
+            text-align: center;
+            background: #898989;
+            color:#ffffff;
+        }
+        ul{
+            width: 100%;
+            margin: 2% 0 2% 2%;
+            padding: 0;
+        }
+        li{
+            display:inline-block;
+            width: 22%;
+            margin: 1% 1% 2%;
+            box-shadow: 1px 1px 5px #898989;
+        }
+        .size2 li{
+            width: 30%;
+        }
+        /* モーダル表示CSS */
+        .modaal-close:after,
+        .modaal-close:before{
+            background:#ccc;
+        }
+
+        .modaal-close:focus:after,
+        .modaal-close:focus:before,
+        .modaal-close:hover:after,
+        .modaal-close:hover:before{
+            background:#666;
+        }
+        .modaal-image .modaal-container {
+            width: 50%;
+            height: auto;
+        }
+        .modaal-gallery-control{
+            display: none;
+        }
+        /* スマホ表示 */
+        @media(max-width:768px){
+            h2{
+                font-size:5vw;
+            }
+            .modaal-image .modaal-container {
+                width: 100%;
+                height: auto;
+            }
+            ul{
+                width: 100%;
+                margin: 2% auto;
+                padding: 0 0 0 1%;
+                /*text-align: center;*/
+            }
+            li{
+                display:inline-block;
+                width: 45%;
+                margin:2%;
+                box-shadow: 1px 1px 5px #898989;
+            }
+            .size2 li{
+                width: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapp">
+        <h1>占いバナーサイズ別一覧ページ</h1>
+        <div class="gallery-list size1">
+            <h2>600x500サイズバナー</h2>
+            <ul>
+                <li>
+                    <a href="./kengoku/sq/1.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/1.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/2.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/2.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/3.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/3.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/4.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/4.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/5.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/5.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/6.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/6.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/7.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/7.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/8.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/8.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/9.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/9.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/10.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/10.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/11.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/11.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/12.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/12.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/13.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/13.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/14.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/14.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/15.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/15.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/16.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/16.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/17.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/17.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/18.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/18.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/19.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/19.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/20.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/20.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/21.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/21.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./600x500/22.jpg" class="gallery" data-group="gallery">
+                        <img src="./600x500/22.jpg" width="100%"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="gallery-list size2">
+            <h2>1200x628サイズバナー</h2>
+            <ul>
+                <li>
+                    <a href="./1200x628/1.jpg" class="gallery" data-group="gallery">
+                        <img src="./1200x628/1.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./1200x628/2.jpg" class="gallery" data-group="gallery">
+                        <img src="./1200x628/2.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./1200x628/3.jpg" class="gallery" data-group="gallery">
+                        <img src="./1200x628/3.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./1200x628/4.jpg" class="gallery" data-group="gallery">
+                        <img src="./1200x628/4.jpg" width="100%"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="gallery-list size3">
+            <h2>正方サイズバナー</h2>
+            <ul>
+                <li>
+                    <a href="./sq/1.jpg" class="gallery" data-group="gallery">
+                        <img src="./sq/1.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sq/2.jpg" class="gallery" data-group="gallery">
+                        <img src="./sq/2.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sq/3.jpg" class="gallery" data-group="gallery">
+                        <img src="./sq/3.jpg" width="100%"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="gallery-list size3">
+            <h2>練習制作バナー(600x500サイズ)</h2>
+            <ul>
+                <li>
+                    <a href="./other/1.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/1.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./other/2.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/2.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./other/3.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/3.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./other/4.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/4.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./other/5.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/5.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./other/6.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/6.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./other/7.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/7.jpg" width="100%"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="./other/8.jpg" class="gallery" data-group="gallery">
+                        <img src="./other/8.jpg" width="100%"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+    <!--自作のJS-->
+    <script>
+        //画像モーダル
+        $(".gallery").modaal({
+            type: 'image',
+            overlay_close:true,//モーダル背景クリック時に閉じるか
+            before_open:function(){// モーダルが開く前に行う動作
+                $('html').css('overflow-y','hidden');/*縦スクロールバーを出さない*/
+            },
+            after_close:function(){// モーダルが閉じた後に行う動作
+                $('html').css('overflow-y','scroll');/*縦スクロールバーを出す*/
+            }
+        });
+    </script>
+</body>
+</html>
